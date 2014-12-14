@@ -1,0 +1,2 @@
+D:\Android\Projects\SimplexMethod\app\build\intermediates\classes\debug
+D:\Android\Projects\SimplexMethod\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-5c13dae993a3a70564280b74f4a6300075997e8b.jar

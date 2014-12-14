@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Симплекс метод</string>
+    <string name="menu_new">Новые вычисления</string>
+    <string name="menu_load">Загрузить условия</string>
+    <string name="menu_help">Помощь</string>
+    <string name="menu_about">О программе</string>
+    <string name="menu_exit">Выход</string>
+    <string name="title_activity_about">О программе</string>
+    <string name="title_activity_help">Помощь</string>
+    <string name="title_activity_calculation">Вычисления</string>
+    <string name="title_dialog_load">Выберите файл из списка ниже для загрузки:</string>
+    <string name="about_1">Эта программа была написана в рамках курсовой работы по дисциплине \"Теория информационных процессов и систем\".</string>
+    <string name="about_2">Автор программы - студент группы ИСТбд-31 УлГТУ Моисеев Владислав.</string>
+    <string name="about_3">Программа реализует алгоритм решения задачи условной оптимизации (в конкретном случае, минимизации) симплекс-методом.</string>
+    <string name="help_1">Данная программа ищет минимальное значение некоторой целевой функции с заданными условиями. Коэффициенты целевой фунеции, а также условий целочисленные. Сама целевая функция вместе с условиями линецна.</string>
+    <string name="help_2">Для вычисления минимального значения не требуется приводить условия в стандартный вид. Программа делает это автоматически, как и определение вспомогательных и искусственных переменных.</string>
+    <string name="help_3">Условие можно записать в виде файла на карту памяти. При этом на карте памяти в корневом каталоге создастся папка "Simplex".</string>
+    <string name="help_4">Вывод программы — совокупность симплекс-таблиц на каждой итерации. Также отображаются выбранные ведущие столбцы и ведущие колонки. В конце выводится результат вычиления.</string>
+    <string name="calculation_enter_variables_count">Введите число переменных, участвующих в вычислениях.</string>
+    <string name="calculation_enter_inequalities_count">Введите количество условий, исключая условия положительности.</string>
+    <string name="calculation_enter_function">Введите целевую функцию, значение которой необходимо минимизировать.</string>
+    <string name="calculation_enter_coefficients">Введите коэффициенты, а также знак неравенств. Если переменная в неравенстве не представлена, оставьте ноль.</string>
+    <string name="calculation_win">Решение найдено!</string>
+    <string name="calculation_fail">Решение найти не удалось.</string>
+    <string name="calculation_save">Сохранить введённые данные?</string>
+    <string name="calculation_save_yes">Да</string>
+    <string name="calculation_save_no">Нет, спасибо</string>
+    <string name="action_next">Далее</string>
+    <string name="load_dir_not_exists">Не могу создать директорию Simplex на карте памяти. Возможно, карта памяти не установлена.</string>
+    <string name="load_files_not_found">Не найдено ни одной записи</string>
+    <string name="result_function" formatted="false">Значение целевой функции: %.2f</string>
+    <string name="result_variable" formatted="false">%s = %.2f</string>
+
+    <string-array name="inequality_sign">
+        <item>=</item>
+        <item>&gt;=</item>
+        <item>&lt;=</item>
+    </string-array>
+
+</resources>
