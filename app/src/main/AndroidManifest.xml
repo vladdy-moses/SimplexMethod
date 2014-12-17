@@ -18,7 +18,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="ru.ulstu.tips.moiseev.MenuActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,6 +29,9 @@
         <activity
             android:name="ru.ulstu.tips.moiseev.AboutActivity"
             android:label="@string/title_activity_about" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ru.ulstu.tips.moiseev.MenuActivity" />
         </activity>
         <activity
             android:name="ru.ulstu.tips.moiseev.CalculationActivity"
@@ -37,6 +41,9 @@
         <activity
             android:name="ru.ulstu.tips.moiseev.HelpActivity"
             android:label="@string/title_activity_help" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ru.ulstu.tips.moiseev.MenuActivity" />
         </activity>
     </application>
 

@@ -2,8 +2,9 @@ package ru.ulstu.tips.moiseev;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.support.v7.app.ActionBarActivity;
 
-public class AboutActivity extends Activity {
+public class AboutActivity extends ActionBarActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

@@ -1,5 +1,5 @@
-D:\Android\Projects\SimplexMethod\app\build\intermediates\classes\debug
-D:\Android\Projects\SimplexMethod\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-aa16b3cf885393ef74ba8407c65bcf20627dd05b.jar
-D:\Android\Projects\SimplexMethod\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-56e2929abc941eda872dc286736b1bd95b7de2f6.jar
-D:\Android\Projects\SimplexMethod\app\build\intermediates\pre-dexed\debug\classes-e28684c8085ede6b2e6bcb1d701627a17ba78134.jar
-D:\Android\Projects\SimplexMethod\app\build\intermediates\pre-dexed\debug\classes-a4729ce8cdbc77c2dd3518efde09948c612e82cb.jar
+D:\Trash\SimplexMethod3\app\build\intermediates\classes\debug
+D:\Trash\SimplexMethod3\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-9fc3c7de1400ed4e3c2ff4e230b8c3908f6474a5.jar
+D:\Trash\SimplexMethod3\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-223ac685621914b4eb0f5c18f3d932a6fd07e00d.jar
+D:\Trash\SimplexMethod3\app\build\intermediates\pre-dexed\debug\classes-f906e57c556bf1db44d59380a72aa9956fb842cc.jar
+D:\Trash\SimplexMethod3\app\build\intermediates\pre-dexed\debug\classes-c2318f05cf908e82306896d48c14388d333332af.jar

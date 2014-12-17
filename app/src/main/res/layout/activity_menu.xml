@@ -1,79 +1,12 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MenuActivity" >
 
-    <LinearLayout
+    <ListView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:layout_height="fill_parent"
+        android:id="@+id/menuListView" />
 
-        <TextView
-            android:id="@+id/menu_new"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:drawableLeft="@drawable/ic_new"
-            android:gravity="center_vertical"
-            android:onClick="menuClick"
-            android:tag="new"
-            android:text="@string/menu_new"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@color/menu_color" />
-        
-        <TextView
-            android:id="@+id/menu_load"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:drawableLeft="@drawable/ic_load"
-            android:gravity="center_vertical"
-            android:onClick="menuClick"
-            android:tag="load"
-            android:text="@string/menu_load"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@color/menu_color" />
-        
-        <TextView
-            android:id="@+id/menu_help"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:drawableLeft="@drawable/ic_help"
-            android:gravity="center_vertical"
-            android:onClick="menuClick"
-            android:tag="help"
-            android:text="@string/menu_help"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@color/menu_color" />
-        
-        <TextView
-            android:id="@+id/menu_about"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:drawableLeft="@drawable/ic_about"
-            android:gravity="center_vertical"
-            android:onClick="menuClick"
-            android:tag="about"
-            android:text="@string/menu_about"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@color/menu_color" />
-
-        <TextView
-            android:id="@+id/menu_exit"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:drawableLeft="@drawable/ic_exit"
-            android:gravity="center_vertical"
-            android:onClick="menuClick"
-            android:tag="exit"
-            android:text="@string/menu_exit"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@color/menu_color" />
-        
-    </LinearLayout>
-
-</ScrollView>
+</RelativeLayout>

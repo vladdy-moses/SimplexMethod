@@ -14,6 +14,7 @@ import ru.ulstu.tips.Inequality.eSign;
 import ru.ulstu.tips.Simplex;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.v7.app.ActionBarActivity;
 import android.text.InputType;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -31,7 +32,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 
-public class CalculationActivity extends Activity {
+public class CalculationActivity extends ActionBarActivity {
 	private LinearLayout mainLayout = null;
 	private int variablesCount = 0;
 	private int inequalitiesCount = 0;
